@@ -9,7 +9,6 @@ public class ArrayListExample {
         // wrapper class
         //int a=10; int b=-10; int c=null
         //Integer d=null;
-
         //declaring arraylist
         List<Integer> list1 = new ArrayList<>();
 
@@ -26,7 +25,7 @@ public class ArrayListExample {
         list1.add(56);
 
         System.out.println("list1 is : "+list1);
-
+// add lines
         // remove data
         list1.remove(1);
         System.out.println("list1 after removing index 1 : "+list1);
@@ -36,7 +35,7 @@ public class ArrayListExample {
         // search
         System.out.println("list1 element at 3rd index : "+list1.get(3));
         System.out.println("list1 element at 5th index : "+list1.get(5));
-
+//add lines
         // size
         System.out.println("list1 size is : "+list1.size());
 
@@ -52,6 +51,5 @@ public class ArrayListExample {
         for(Integer l1 : list1){
             System.out.println(l1);
         }
-
     }
 }
