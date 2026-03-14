@@ -5,7 +5,6 @@ import java.util.Stack;
 public class StackExample {
     public static void main(String[] args) {
         Stack<String> stck1 = new Stack<>();
-
         // adding data - push
         stck1.push("Apple");
         stck1.push("Mango");
@@ -13,7 +12,7 @@ public class StackExample {
         stck1.push("Guava");
         stck1.push("Pineapple");
         stck1.push("Watermelon");
-
+//add lines
         System.out.println("stck1 is :"+stck1);
 
         // removing data - pop
